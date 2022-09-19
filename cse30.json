@@ -1,0 +1,302 @@
+[
+    {
+        "ccode": "CSE 111",
+        "day": 0,
+        "effective": 20220731,
+        "room": 501,
+        "sec": 0,
+        "teacher": "FW",
+        "timeStart": "10:30",
+        "timeStop": "11:55"
+    },
+    {
+        "ccode": "PHY 112",
+        "day": 0,
+        "effective": 20220731,
+        "room": "DEL",
+        "sec": 0,
+        "teacher": "SHR+FW",
+        "timeStart": "12:00",
+        "timeStop": "14:00"
+    },
+    {
+        "ccode": "CSE 111",
+        "day": 0,
+        "effective": 20220731,
+        "room": 401,
+        "sec": 1,
+        "teacher": "FW",
+        "timeStart": "9:00",
+        "timeStop": "10:25"
+    },
+    {
+        "ccode": "ENG 111",
+        "day": 0,
+        "effective": 20220731,
+        "room": 401,
+        "sec": 1,
+        "teacher": "NJK",
+        "timeStart": "10:30",
+        "timeStop": "11:55"
+    },
+    {
+        "ccode": "MAT 111",
+        "day": 0,
+        "effective": 20220731,
+        "room": "R2",
+        "sec": 2,
+        "teacher": "AH",
+        "timeStart": "10:30",
+        "timeStop": "11:55"
+    },
+    {
+        "ccode": "ENG 111",
+        "day": 0,
+        "effective": 20220731,
+        "room": 401,
+        "sec": 2,
+        "teacher": "NJK",
+        "timeStart": "12:00",
+        "timeStop": "13:25"
+    },
+    {
+        "ccode": "MAT 111",
+        "day": 1,
+        "effective": 20220731,
+        "room": "R3",
+        "sec": 0,
+        "teacher": "AH",
+        "timeStart": "10:30",
+        "timeStop": "11:55"
+    },
+    {
+        "ccode": "ENG 111",
+        "day": 1,
+        "effective": 20220731,
+        "room": 401,
+        "sec": 0,
+        "teacher": "NJK",
+        "timeStart": "12:00",
+        "timeStop": "13:25"
+    },
+    {
+        "ccode": "MAT 111",
+        "day": 1,
+        "effective": 20220731,
+        "room": "R2",
+        "sec": 1,
+        "teacher": "AH",
+        "timeStart": "12:00",
+        "timeStop": "13:25"
+    },
+    {
+        "ccode": "ENG 111",
+        "day": 1,
+        "effective": 20220731,
+        "room": 401,
+        "sec": 1,
+        "teacher": "NJK",
+        "timeStart": "13:30",
+        "timeStop": "14:55"
+    },
+    {
+        "ccode": "PHY 111",
+        "day": 1,
+        "effective": 20220731,
+        "room": "R2",
+        "sec": 2,
+        "teacher": "SP",
+        "timeStart": "15:00",
+        "timeStop": "16:25"
+    },
+    {
+        "ccode": "CSE 111",
+        "day": 1,
+        "effective": 20220731,
+        "room": "R2",
+        "sec": 2,
+        "teacher": "AAL",
+        "timeStart": "15:30",
+        "timeStop": "16:55"
+    },
+    {
+        "ccode": "MAT 111",
+        "day": 2,
+        "effective": 20220731,
+        "room": "R2",
+        "sec": 0,
+        "teacher": "AH",
+        "timeStart": "13:30",
+        "timeStop": "14:55"
+    },
+    {
+        "ccode": "CSE 112",
+        "day": 2,
+        "effective": 20220731,
+        "room": "NL",
+        "sec": 0,
+        "teacher": "SY+GS",
+        "timeStart": "15:00",
+        "timeStop": "17:00"
+    },
+    {
+        "ccode": "CSE 112",
+        "day": 2,
+        "effective": 20220731,
+        "room": "ABACUS",
+        "sec": 1,
+        "teacher": "SY+ITR",
+        "timeStart": "9:00",
+        "timeStop": "11:00"
+    },
+    {
+        "ccode": "PHY 111",
+        "day": 2,
+        "effective": 20220731,
+        "room": "R3",
+        "sec": 1,
+        "teacher": "SHR",
+        "timeStart": "12:00",
+        "timeStop": "13:25"
+    },
+    {
+        "ccode": "PHY 112",
+        "day": 2,
+        "effective": 20220731,
+        "room": "DEL",
+        "sec": 2,
+        "teacher": "FW+MFA",
+        "timeStart": "13:30",
+        "timeStop": "15:00"
+    },
+    {
+        "ccode": "PHY 111",
+        "day": 2,
+        "effective": 20220731,
+        "room": 101,
+        "sec": 2,
+        "teacher": "SP",
+        "timeStart": "15:00",
+        "timeStop": "16:25"
+    },
+    {
+        "ccode": "CSE 111",
+        "day": 3,
+        "effective": 20220731,
+        "room": 201,
+        "sec": 0,
+        "teacher": "FW",
+        "timeStart": "9:00",
+        "timeStop": "10:25"
+    },
+    {
+        "ccode": "PHY 111",
+        "day": 3,
+        "effective": 20220731,
+        "room": 501,
+        "sec": 0,
+        "teacher": "SHR",
+        "timeStart": "10:30",
+        "timeStop": "11:55"
+    },
+    {
+        "ccode": "MAT 111",
+        "day": 3,
+        "effective": 20220731,
+        "room": "R2",
+        "sec": 1,
+        "teacher": "AH",
+        "timeStart": "10:30",
+        "timeStop": "11:55"
+    },
+    {
+        "ccode": "PHY 111",
+        "day": 3,
+        "effective": 20220731,
+        "room": 401,
+        "sec": 1,
+        "teacher": "SHR",
+        "timeStart": "12:00",
+        "timeStop": "13:25"
+    },
+    {
+        "ccode": "CSE 112",
+        "day": 3,
+        "effective": 20220731,
+        "room": "ABACUS",
+        "sec": 2,
+        "teacher": "FW+ST",
+        "timeStart": "12:00",
+        "timeStop": "14:00"
+    },
+    {
+        "ccode": "MAT 111",
+        "day": 3,
+        "effective": 20220731,
+        "room": "R2",
+        "sec": 2,
+        "teacher": "AH",
+        "timeStart": "15:00",
+        "timeStop": "14:25"
+    },
+    {
+        "ccode": "PHY 111",
+        "day": 4,
+        "effective": 20220731,
+        "room": 501,
+        "sec": 0,
+        "teacher": "SHR",
+        "timeStart": "10:30",
+        "timeStop": "11:55"
+    },
+    {
+        "ccode": "ENG 111",
+        "day": 4,
+        "effective": 20220731,
+        "room": 302,
+        "sec": 0,
+        "teacher": "NJK",
+        "timeStart": "12:00",
+        "timeStop": "13:25"
+    },
+    {
+        "ccode": "CSE 111",
+        "day": 4,
+        "effective": 20220731,
+        "room": 401,
+        "sec": 1,
+        "teacher": "FW",
+        "timeStart": "10:30",
+        "timeStop": "11:55"
+    },
+    {
+        "ccode": "PHY 112",
+        "day": 4,
+        "effective": 20220731,
+        "room": "DEL",
+        "sec": 1,
+        "teacher": "SHR+FW",
+        "timeStart": "12:00",
+        "timeStop": "14:00"
+    },
+    {
+        "ccode": "ENG 111",
+        "day": 4,
+        "effective": 20220731,
+        "room": 401,
+        "sec": 2,
+        "teacher": "NJK",
+        "timeStart": "15:00",
+        "timeStop": "16:25"
+    },
+    {
+        "ccode": "CSE 111",
+        "day": 4,
+        "effective": 20220731,
+        "room": 401,
+        "sec": 2,
+        "teacher": "AAL",
+        "timeStart": "16:30",
+        "timeStop": "17:55"
+    }
+]
