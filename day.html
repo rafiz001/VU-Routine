@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta http-equiv="refreshh" content="3">
+    <style>
+        small {
+            color: white;
+            float: right;
+        }
+
+        body {
+           background: rgb(0, 0, 0);
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #0f0f0f;
+            color: #ffffff;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #a0a0a0;
+        }
+
+        .date {
+            border: 2px dotted red;
+            color: white;
+            text-align: center;
+            padding: 7px;
+        }
+
+        .today {
+            border: 2px solid red;
+        }
+
+        a {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>"
+    <div class='date'>Effective from:<input type="date" name="effective" value="2022-09-25"/>
+        <br>Semester: <input type="number" name="semester" size="3"/><br>
+        Section: <input type="number" name="sec">
+           
+    </div>
+    <a href="day.html"><button>Refresh</button></a>
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>0</th>
+            <th>1</th>
+            <th>2</th>
+        </tr>
+        <tr id="sund">
+        </tr>
+        <tr id="mond">
+        </tr>
+        <tr id="tued">
+        </tr>
+        <tr id="wedd">
+        </tr>
+        <tr id="thud">
+        </tr>
+
+            
+
+        
+
+    </table>
+    <!--script>document.getElementById('ef').innerHTML = 'wait...<br>Semester: "+sem+"';</script-->
+  <textarea id="out"></textarea>
+   <script>
+    function day(d){
+        var dA=["Sunday","Monday","Tuesday","Wednesday","Thursday"];
+         var aa=`<td>`+dA[d]+`</td>`;
+        for(var a=0;a<=2;a++){
+            aa+=`  
+            <td>Course Code:<input type="text" name="`+d+a+`ccode" list="code" >
+                <datalist id="code">
+                <option value="MAT 121">MAT 121</option>
+                <option value="CSE 121">CSE 121</option>
+                <option value="CSE 122">CSE 122</option>
+                <option value="CSE 123">CSE 123</option>
+                <option value="CSE 124">CSE 124</option>
+                </datalist>
+                
+            </select>
+
+
+                <br>Room:<input type="text" name="`+d+a+`room" value="" size="7">
+
+
+                <br>Teacher:<input type="text" name="`+d+a+`teacher" value="" size="4">
+
+                <br>Start:<input type="time" name="`+d+a+`timeStart" value="09:00">
+      
+                <br>Stop:<input type="time" name="`+d+a+`timeStop" value="10:25">
+            </td>
+`;
+
+        }
+return aa;
+    }
+    document.getElementById("sund").innerHTML=day(0); 
+    document.getElementById("mond").innerHTML=day(1); 
+    document.getElementById("tued").innerHTML=day(2); 
+    document.getElementById("wedd").innerHTML=day(3); 
+    document.getElementById("thud").innerHTML=day(4); 
+     
+   </script>
+    
+    <script>
+        function removed(withdash){
+            var dashA=withdash.split("");
+            return dashA[0]+dashA[2]+dashA[3]+dashA[5]+dashA[6]+dashA[8]+dashA[9];
+        }
+        function show(){
+ alert(document.querySelector("input[name='22ccode']").value);
+        }
+        
+        </script>
+        <script>
+            function go(){
+                var output=``;
+for(var i=0;i<=4;i++){
+    for(var j=0;j<=2;j++){
+        if(document.querySelector("input[name='"+i+j+"teacher']").value!==""){
+           // alert(document.querySelector("input[name='"+i+j+"teacher']").value+i+j);
+        
+          output+=
+    ` { "ccode": "`+document.querySelector("input[name='"+i+j+"ccode']").value+`",
+        "day": `+i+`,
+        "effective": `+removed(document.querySelector("input[name='effective']").value)+`,
+        "room": "`+document.querySelector("input[name='"+i+j+"room']").value+`",
+        "sec": `+document.querySelector("input[name='"+i+j+"room']").value+`,
+        "semester": "`+document.querySelector("input[name='semester']").value+`",
+        "teacher": "`+document.querySelector("input[name='"+i+j+"teacher']").value+`",
+        "timeStart": "`+document.querySelector("input[name='"+i+j+"timeStart']").value+`",
+        "timeStop": "`+document.querySelector("input[name='"+i+j+"timeStop']").value+`",
+        "v": "1.0"},\n`;
+        
+        }
+    }
+}
+//alert(output);
+navigator.clipboard.writeText(output).then(function(){
+    alert("copyied!");
+},function(err){
+    alert(err);
+
+            });
+}
+</script>
+<button onclick="go()">go()</button>
+        <button onclick="show()">show()</button>
+</body>
+
+</html>
