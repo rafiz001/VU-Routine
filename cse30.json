@@ -1,4 +1,5 @@
- { "ccode": "MAT 131",
+[ 
+{ "ccode": "MAT 131",
         "day": 0,
         "effective": 20230129,
         "room": "ANX 102",
@@ -328,4 +329,5 @@
         "teacher": "DH",
         "timeStart": "09:00",
         "timeStop": "10:10",
-        "v": "1.1"},
+        "v": "1.1"}
+]
