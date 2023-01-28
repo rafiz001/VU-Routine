@@ -1,5 +1,5 @@
-[ 
-{ "ccode": "MAT 131",
+ [
+ { "ccode": "MAT 131",
         "day": 0,
         "effective": 20230129,
         "room": "ANX 102",
@@ -162,7 +162,38 @@
         "v": "1.1"},
  { "ccode": "MAT 131",
         "day": 3,
-        "effective": 20230129, { "ccode": "CSE 133",
+        "effective": 20230129, 
+        "room": "ANX 303",
+        "sec": 1,
+        "semester": "3",
+        "teacher": "MR",
+        "timeStart": "10:10",
+        "timeStop": "11:20",
+        "v": "1.1"},
+        
+ { "ccode": "CSE 136",
+        "day": 4,
+        "effective": 20230129, 
+        "room": "Abacus",
+        "sec": 1,
+        "semester": "3",
+        "teacher": "MKD",
+        "timeStart": "11:30",
+        "timeStop": "12:30",
+        "v": "1.1"},
+
+ { "ccode": "CSE 136",
+        "day": 4,
+        "effective": 20230129, 
+        "room": "Abacus",
+        "sec": 1,
+        "semester": "3",
+        "teacher": "AKI",
+        "timeStart": "12:30",
+        "timeStop": "13:30",
+        "v": "1.1"},
+
+        { "ccode": "CSE 133",
         "day": 0,
         "effective": 20230129,
         "room": "OLD 302",
@@ -330,4 +361,4 @@
         "timeStart": "09:00",
         "timeStop": "10:10",
         "v": "1.1"}
-]
+        ]
