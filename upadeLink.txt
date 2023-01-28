@@ -1,1 +1,1 @@
-1.0,https://github.com
+1.1,https://github.com/rafiz001/VU-Routine/releases/download/v1.1/app-debug.apk
