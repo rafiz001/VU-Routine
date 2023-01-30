@@ -89,26 +89,7 @@
         "timeStart": "10:10",
         "timeStop": "11:20",
         "v": "1.1"},
- { "ccode": "CSE 136",
-        "day": 4,
-        "effective": 20230129,
-        "room": "NL",
-        "sec": 0,
-        "semester": "3",
-        "teacher": "AAA",
-        "timeStart": "11:30",
-        "timeStop": "12:30",
-        "v": "1.1"},
- { "ccode": "CSE 136",
-        "day": 4,
-        "effective": 20230129,
-        "room": "NL",
-        "sec": 0,
-        "semester": "3",
-        "teacher": "AAA",
-        "timeStart": "12:30",
-        "timeStop": "13:30",
-        "v": "1.1"},
+
 
 
 
